@@ -1,0 +1,298 @@
+.display-1 {
+    font-size: 2.5rem;
+}
+
+/* Mainheader */
+.mainheader {
+    height: 100%;
+}
+
+/* Showcase */
+#showcase {
+    padding: 0;
+    text-align: center;
+}
+
+.showcase-row {
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.showcase-row-img img {
+    width: 100%;
+    padding-top: 40px;
+}
+
+/* Portfolio */
+#portfolio {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+#portfolio p {
+    width: 100%;
+}
+
+/* About Me */
+#Sobe Mi{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+#Sobre Mi h2 {
+    padding-bottom: 10px;
+}
+
+#Sobre Mi p {
+    padding-bottom: 5px;
+}
+
+/* Contact */
+#contacto {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+#contacto p {
+    width: 100%;
+}
+
+.imagen{
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    flex-flow:row wrap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 20;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  justify-content: center;
+  background-color:rgb(146, 174, 219);
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utility Classes */
+.large {
+    font-size: 1.25rem;
+}
+
+.txt-orange {
+    color: #e9a075;
+}
+
+.display-1 {
+    font-size: 4rem;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn-round {
+    border-radius: 20px;
+}
+
+.btn-dark {
+    background: #e9a075;
+    border: 1px solid #e9a075;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background: #d19069;
+    color: #fff;
+}
+
+/* Mainheader */
+#mainheader {
+    background: radial-gradient(at 10% 10px, #e9a075, #fff, #fff);
+    height: 100vh;
+}
+
+/* Showcase */
+#showcase {
+    padding: 80px 0;
+}
+
+.showcase-row {
+    display: flex;
+    padding: 150px 0;
+}
+.showcase-row {
+    display: flex;
+    padding: 150px 0;
+    
+}
+
+.showcase-row-title p.large {
+    padding-bottom: 15px;
+}
+
+/* Portafolio */
+.portfolio {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.portfolio p {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.portfolio-row img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    background-color:   rgb(255, 228, 196);
+}
+
+#Sobre Mi {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#Sobre Mi h2 {
+    padding-bottom: 50px;
+}
+
+#Sobre Mi p {
+    padding-bottom: 20px;
+}
+
+/* Contacto */
+#contacto {
+    padding: 80px 0;
+}
+
+#contacto h2 {
+    text-align: center;
+}
+
+#contacto p {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* Footer */
+#mainfooter {
+    text-align: center;
+    padding: 30px;
+}
+.contenedor{
+  background-image: url(/imagen/naturaleza.jpg);
+  color: black;
+  justify-items: center;
+  background-repeat: no-repeat;
+  padding: 15px 10;
+}
+.contenedor2{
+background-color:rgb(244, 219, 188);
+display: flex;
+text-align:center;
+margin-top: 15px;
+}
+.contenedor3 img{
+    background-color:rgb(247, 198, 149);
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    
+}
+.contenedor3{
+    background-color:rgb(247, 198, 149);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contenedor4 img{
+background-color:rgb(244, 164, 96);
+margin-left: 15px;
+}
+.contenedor4{
+    background-color:rgb(244, 164, 96);
+}
+nav{
+    width: 100%;
+    padding: 10px;
+    color:white;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.7;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-image: url('https://images.pexels.com/photos/1769553/pexels-photo-1769553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+nav .logo{
+    font-size: 2em;
+    border:1px solid white;
+    padding:5px;
+}
+nav .menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap:15px;
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+}
+h2,h4{
+   color:black;
+   font-size: 2.5em;
+   text-align: center;
+}
+.imagen{
+    background-color:rgb(244, 219, 188);
+    display: flex;
+    flex-flow:row wrap;
+    flex-grow: 1;
+    vertical-align: middle;
+}
+input,textarea{
+    border:none;
+    border-bottom: 4px solid black;
+    outline: none;
+}
+.gift .gift2{
+    height: 100px;
+    max-width: 90;
+}
